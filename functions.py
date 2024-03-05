@@ -21,6 +21,11 @@ def printscreen(nome_arquivo):
 
 def res970_90():
     pg.press('down', presses = 9)
-    time.sleep(2)
+    time.sleep(1.5)
     printscreen('970_90')
-    
+
+
+def res1248_250():
+    pg.press('pgup', presses = 3)
+    time.sleep(3)
+    printscreen('1248_250')
